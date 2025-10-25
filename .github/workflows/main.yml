@@ -1,0 +1,12 @@
+name: disable workflow
+
+on:
+ push:
+
+jobs:
+  disable:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Disable workflow
+        run: echo"Hello The Disable workflow is done by me"
