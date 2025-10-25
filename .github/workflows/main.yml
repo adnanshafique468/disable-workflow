@@ -2,6 +2,7 @@ name: disable workflow
 
 on:
  push:
+  branches: [ main ]
 
 jobs:
   disable:
@@ -9,4 +10,4 @@ jobs:
 
     steps:
       - name: Disable workflow
-        run: echo"Hello The Disable workflow is done by me"
+        run: echo "Hello The Disable workflow is done by me"
